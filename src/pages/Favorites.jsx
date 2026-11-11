@@ -1,0 +1,5 @@
+function Favorites() {
+    return <h1>Home Page</h1>
+}
+
+export default Favorites
