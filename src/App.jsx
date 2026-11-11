@@ -6,6 +6,7 @@ import Movies from './pages/Movies'
 import MovieDetails from './pages/MovieDetails'
 import Favorites from './pages/Favorites'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 function App() {
 
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path="/movies/:id" element={<MovieDetails />} />
         <Route path="/favorites" element={<Favorites />} />
       </Routes>
+
+      <Footer />
     </div>
   )
 }
